@@ -173,15 +173,17 @@
                   <Component id="WorldView" min="-2" max="-2" attributes="0"/>
                   <EmptySpace type="separate" max="-2" attributes="0"/>
                   <Component id="Compass" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
                   <Component id="Help" min="-2" max="-2" attributes="0"/>
                   <EmptySpace type="separate" max="-2" attributes="0"/>
                   <Component id="Save" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
                   <Component id="satReport" min="-2" max="-2" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
                   <Component id="Exit" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace pref="320" max="32767" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Component id="satDetailsButton" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace pref="251" max="32767" attributes="0"/>
                   <Component id="runPassPrediction" min="-2" pref="144" max="-2" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
               </Group>
@@ -205,6 +207,7 @@
                       <Component id="Save" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="Exit" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="satReport" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="satDetailsButton" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace max="-2" attributes="0"/>
               </Group>
@@ -323,6 +326,14 @@
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="satReportActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="satDetailsButton">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x62c;&#x632;&#x6cc;&#x6cc;&#x627;&#x62a; &#x645;&#x627;&#x647;&#x648;&#x627;&#x631;&#x647;"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="satDetailsButtonActionPerformed"/>
           </Events>
         </Component>
       </SubComponents>

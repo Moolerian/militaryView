@@ -23,205 +23,51 @@
   <Layout>
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Group type="102" attributes="0">
-              <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" alignment="1" attributes="0">
-                      <EmptySpace max="32767" attributes="0"/>
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="jLabel1" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Group type="102" alignment="1" attributes="0">
-                              <Component id="jLabel3" min="-2" pref="118" max="-2" attributes="0"/>
-                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                              <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
-                          </Group>
-                          <Group type="102" alignment="1" attributes="0">
-                              <Component id="jLabel7" min="-2" pref="94" max="-2" attributes="0"/>
-                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                              <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
-                          </Group>
-                          <Component id="jLabel8" alignment="1" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                  </Group>
-                  <Group type="102" alignment="1" attributes="0">
-                      <EmptySpace min="0" pref="11" max="32767" attributes="0"/>
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="jLabel10" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="jLabel11" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="jLabel12" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="jLabel13" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="jLabel9" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="jLabel14" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="jLabel15" alignment="1" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                  </Group>
-              </Group>
-              <EmptySpace max="-2" attributes="0"/>
-          </Group>
+          <Component id="jScrollPane1" alignment="0" pref="1379" max="32767" attributes="0"/>
       </Group>
     </DimensionLayout>
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Group type="102" alignment="1" attributes="0">
-              <EmptySpace max="-2" attributes="0"/>
-              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
-              <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
-              </Group>
-              <EmptySpace type="separate" max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="jLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jLabel6" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jLabel7" alignment="3" min="-2" max="-2" attributes="0"/>
-              </Group>
-              <EmptySpace type="separate" max="-2" attributes="0"/>
-              <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
-              <EmptySpace type="separate" max="-2" attributes="0"/>
-              <Component id="jLabel10" min="-2" max="-2" attributes="0"/>
-              <EmptySpace type="separate" max="-2" attributes="0"/>
-              <Component id="jLabel11" min="-2" max="-2" attributes="0"/>
-              <EmptySpace type="separate" max="-2" attributes="0"/>
-              <Component id="jLabel12" min="-2" max="-2" attributes="0"/>
-              <EmptySpace type="separate" max="-2" attributes="0"/>
-              <Component id="jLabel13" min="-2" max="-2" attributes="0"/>
-              <EmptySpace type="separate" max="-2" attributes="0"/>
-              <Component id="jLabel9" min="-2" max="-2" attributes="0"/>
-              <EmptySpace type="separate" max="-2" attributes="0"/>
-              <Component id="jLabel14" min="-2" max="-2" attributes="0"/>
-              <EmptySpace type="separate" max="-2" attributes="0"/>
-              <Component id="jLabel15" min="-2" max="-2" attributes="0"/>
-              <EmptySpace max="32767" attributes="0"/>
-          </Group>
+          <Component id="jScrollPane1" alignment="0" pref="337" max="32767" attributes="0"/>
       </Group>
     </DimensionLayout>
   </Layout>
   <SubComponents>
-    <Component class="javax.swing.JLabel" name="jLabel1">
-      <Properties>
-        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Tahoma" size="14" style="1"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value="&#x6af;&#x632;&#x627;&#x631;&#x634; &#x645;&#x627;&#x647;&#x648;&#x627;&#x631;&#x647; &#x647;&#x627;"/>
-        <Property name="toolTipText" type="java.lang.String" value=""/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="jLabel2">
-      <Properties>
-        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Tahoma" size="12" style="1"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value="&#x646;&#x627;&#x645; "/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="jLabel3">
-      <Properties>
-        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Tahoma" size="12" style="1"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value="&#x645;&#x627;&#x647;&#x648;&#x627;&#x631;&#x647; NOAA"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="jLabel4">
-      <Properties>
-        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Tahoma" size="14" style="1"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value=":"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="jLabel5">
-      <Properties>
-        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Tahoma" size="12" style="1"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value="&#x642;&#x62f;&#x631;&#x62a; &#x62a;&#x641;&#x6a9;&#x6cc;&#x6a9; &#x645;&#x6a9;&#x627;&#x646;&#x6cc;"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="jLabel6">
-      <Properties>
-        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Tahoma" size="14" style="1"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value=":"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="jLabel7">
-      <Properties>
-        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Tahoma" size="12" style="1"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value="&#x6f1;/&#x6f1; &#x643;&#x64a;&#x644;&#x648;&#x645;&#x62a;&#x631;"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="jLabel8">
-      <Properties>
-        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Tahoma" size="12" style="1"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value="&#x643;&#x634;&#x648;&#x631; &#x633;&#x627;&#x632;&#x646;&#x62f;&#x647; : &#x622;&#x645;&#x631;&#x64a;&#x643;&#x627;"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="jLabel9">
-      <Properties>
-        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Tahoma" size="12" style="1"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value="&#x62a;&#x627;&#x631;&#x64a;&#x62e; &#x67e;&#x631;&#x62a;&#x627;&#x628; : &#x6f1;&#x6f9;&#x6f7;&#x6f8;"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="jLabel10">
-      <Properties>
-        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Tahoma" size="12" style="1"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value="&#x67e;&#x648;&#x634;&#x634; &#x634;&#x628;&#x627;&#x646;&#x647; &#x631;&#x648;&#x632; : &#x62f;&#x648; &#x67e;&#x648;&#x634;&#x634; &#x643;&#x627;&#x645;&#x644; &#x627;&#x632; &#x643;&#x631;&#x647; &#x632;&#x645;&#x64a;&#x646;"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="jLabel11">
-      <Properties>
-        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Tahoma" size="12" style="1"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value="&#x627;&#x631;&#x62a;&#x641;&#x627;&#x639; &#x645;&#x62f;&#x627;&#x631; : &#x6f8;&#x6f5;&#x6f0; &#x643;&#x64a;&#x644;&#x648;&#x645;&#x62a;&#x631;"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="jLabel12">
-      <Properties>
-        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Tahoma" size="12" style="1"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value="&#x645;&#x62f;&#x627;&#x631; &#x62f;&#x627;&#x64a;&#x631;&#x647; &#x627;&#x64a; &#x628;&#x647; &#x627;&#x631;&#x62a;&#x641;&#x627;&#x639; &#x647;&#x634;&#x62a;&#x635;&#x62f; &#x648; &#x67e;&#x646;&#x62c;&#x627;&#x647; &#x643;&#x64a;&#x644;&#x648;&#x645;&#x62a;&#x631;"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="jLabel13">
-      <Properties>
-        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Tahoma" size="12" style="1"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value="&#x632;&#x645;&#x627;&#x646; &#x62f;&#x648;&#x631;&#x627;&#x646; &#x62d;&#x62f;&#x648;&#x62f; &#x635;&#x62f; &#x648; &#x62f;&#x648; &#x62f;&#x642;&#x64a;&#x642;&#x647; &#x628;&#x627; &#x686;&#x647;&#x627;&#x631;&#x62f;&#x647; &#x62f;&#x648;&#x631;&#x627;&#x646; &#x62f;&#x631; &#x634;&#x628;&#x627;&#x646;&#x647; &#x631;&#x648;&#x632;"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="jLabel14">
-      <Properties>
-        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Tahoma" size="12" style="1"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value="&#x62d;&#x633; &#x6af;&#x631;  AVHRR"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="jLabel15">
-      <Properties>
-        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Tahoma" size="12" style="1"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value="&#x633;&#x64a;&#x633;&#x62a;&#x645; &#x627;&#x631;&#x633;&#x627;&#x644; &#x627;&#x637;&#x644;&#x627;&#x639;&#x627;&#x62a;   HRPT"/>
-      </Properties>
-    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTable" name="jTable1">
+          <Properties>
+            <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+              <Table columnCount="16" rowCount="0">
+                <Column editable="false" title="&#x646;&#x627;&#x645; &#x645;&#x627;&#x647;&#x648;&#x627;&#x631;&#x647;" type="java.lang.Object"/>
+                <Column editable="false" title="&#x6a9;&#x634;&#x648;&#x631; &#x633;&#x627;&#x632;&#x646;&#x62f;&#x647;" type="java.lang.Object"/>
+                <Column editable="false" title="&#x62a;&#x627;&#x631;&#x6cc;&#x62e; &#x67e;&#x631;&#x62a;&#x627;&#x628;" type="java.lang.Object"/>
+                <Column editable="false" title="&#x632;&#x627;&#x648;&#x6cc;&#x647; &#x645;&#x6cc;&#x644;" type="java.lang.Object"/>
+                <Column editable="false" title="&#x627;&#x631;&#x62a;&#x641;&#x627;&#x639;" type="java.lang.Object"/>
+                <Column editable="false" title="&#x633;&#x637;&#x62d; &#x645;&#x642;&#x637;&#x639; &#x631;&#x627;&#x62f;&#x627;&#x631;&#x6cc;" type="java.lang.Object"/>
+                <Column editable="false" title="&#x646;&#x648;&#x639; &#x645;&#x62f;&#x627;&#x631;" type="java.lang.Object"/>
+                <Column editable="false" title="&#x639;&#x645;&#x631; &#x645;&#x627;&#x647;&#x648;&#x627;&#x631;&#x647;" type="java.lang.Object"/>
+                <Column editable="false" title="&#x646;&#x627;&#x645; &#x633;&#x646;&#x62c;&#x646;&#x62f;&#x647;" type="java.lang.Object"/>
+                <Column editable="false" title="&#x646;&#x648;&#x639; &#x633;&#x646;&#x62c;&#x646;&#x62f;&#x647;" type="java.lang.Object"/>
+                <Column editable="false" title="&#x642;&#x62f;&#x631;&#x62a; &#x62a;&#x641;&#x6a9;&#x6cc;&#x6a9; &#x645;&#x6a9;&#x627;&#x646;&#x6cc;" type="java.lang.Object"/>
+                <Column editable="false" title="&#x642;&#x62f;&#x631;&#x62a; &#x62a;&#x641;&#x6a9;&#x6cc;&#x6a9; &#x632;&#x645;&#x627;&#x646;&#x6cc;" type="java.lang.Object"/>
+                <Column editable="false" title="&#x642;&#x62f;&#x631;&#x62a; &#x62a;&#x641;&#x6a9;&#x6cc;&#x6a9; &#x631;&#x627;&#x62f;&#x6cc;&#x648;&#x645;&#x62a;&#x631;&#x6cc;&#x6a9;" type="java.lang.Object"/>
+                <Column editable="false" title="&#x639;&#x631;&#x636; &#x6af;&#x630;&#x631;" type="java.lang.Object"/>
+                <Column editable="false" title="&#x62a;&#x639;&#x62f;&#x627;&#x62f; &#x628;&#x627;&#x646;&#x62f; " type="java.lang.Object"/>
+                <Column editable="false" title="&#x645;&#x62d;&#x62f;&#x648;&#x62f;&#x647; &#x637;&#x6cc;&#x641;&#x6cc;" type="java.lang.Object"/>
+              </Table>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+          </AuxValues>
+        </Component>
+      </SubComponents>
+    </Container>
   </SubComponents>
 </Form>

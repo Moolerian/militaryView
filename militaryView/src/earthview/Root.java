@@ -44,6 +44,7 @@ public class Root extends javax.swing.JFrame {
         Save = new javax.swing.JButton();
         Exit = new javax.swing.JButton();
         satReport = new javax.swing.JButton();
+        satDetailsButton = new javax.swing.JButton();
         center = new javax.swing.JPanel();
         bottom = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
@@ -179,6 +180,13 @@ public class Root extends javax.swing.JFrame {
             }
         });
 
+        satDetailsButton.setText("جزییات ماهواره");
+        satDetailsButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                satDetailsButtonActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout topLayout = new javax.swing.GroupLayout(top);
         top.setLayout(topLayout);
         topLayout.setHorizontalGroup(
@@ -200,15 +208,17 @@ public class Root extends javax.swing.JFrame {
                 .addComponent(WorldView)
                 .addGap(18, 18, 18)
                 .addComponent(Compass)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGap(18, 18, 18)
                 .addComponent(Help)
                 .addGap(18, 18, 18)
                 .addComponent(Save)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(satReport)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(Exit)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 320, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(satDetailsButton)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 251, Short.MAX_VALUE)
                 .addComponent(runPassPrediction, javax.swing.GroupLayout.PREFERRED_SIZE, 144, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
         );
@@ -229,7 +239,8 @@ public class Root extends javax.swing.JFrame {
                     .addComponent(Help)
                     .addComponent(Save)
                     .addComponent(Exit)
-                    .addComponent(satReport))
+                    .addComponent(satReport)
+                    .addComponent(satDetailsButton))
                 .addContainerGap())
         );
 
@@ -538,6 +549,10 @@ public class Root extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_satReportActionPerformed
 
+    private void satDetailsButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_satDetailsButtonActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_satDetailsButtonActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -615,6 +630,7 @@ public class Root extends javax.swing.JFrame {
     private javax.swing.JCheckBoxMenuItem placeNameMenuItem;
     private javax.swing.JButton removeFacilityFromList;
     private javax.swing.JButton runPassPrediction;
+    private javax.swing.JButton satDetailsButton;
     private javax.swing.JButton satReport;
     private javax.swing.JCheckBoxMenuItem scaleMenuItem;
     private javax.swing.JPanel top;
