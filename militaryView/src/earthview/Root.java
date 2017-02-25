@@ -45,6 +45,7 @@ public class Root extends javax.swing.JFrame {
         Exit = new javax.swing.JButton();
         satReport = new javax.swing.JButton();
         satDetailsButton = new javax.swing.JButton();
+        excelSat = new javax.swing.JButton();
         center = new javax.swing.JPanel();
         bottom = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
@@ -187,6 +188,8 @@ public class Root extends javax.swing.JFrame {
             }
         });
 
+        excelSat.setText("تعریف دسته ایی ماهواره");
+
         javax.swing.GroupLayout topLayout = new javax.swing.GroupLayout(top);
         top.setLayout(topLayout);
         topLayout.setHorizontalGroup(
@@ -218,7 +221,9 @@ public class Root extends javax.swing.JFrame {
                 .addComponent(Exit)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(satDetailsButton)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 251, Short.MAX_VALUE)
+                .addGap(18, 18, 18)
+                .addComponent(excelSat)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 71, Short.MAX_VALUE)
                 .addComponent(runPassPrediction, javax.swing.GroupLayout.PREFERRED_SIZE, 144, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
         );
@@ -240,7 +245,8 @@ public class Root extends javax.swing.JFrame {
                     .addComponent(Save)
                     .addComponent(Exit)
                     .addComponent(satReport)
-                    .addComponent(satDetailsButton))
+                    .addComponent(satDetailsButton)
+                    .addComponent(excelSat))
                 .addContainerGap())
         );
 
@@ -607,6 +613,7 @@ public class Root extends javax.swing.JFrame {
     private javax.swing.JCheckBoxMenuItem compassMenuItem;
     private javax.swing.JMenuItem customeFacilityMenuItem;
     private javax.swing.JMenu editMenu;
+    private javax.swing.JButton excelSat;
     public static javax.swing.JList<Facility> facilityList;
     private javax.swing.JMenu fileMenu;
     private javax.swing.JButton jButton1;
