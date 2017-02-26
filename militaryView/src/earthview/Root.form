@@ -176,16 +176,16 @@
                   <EmptySpace type="separate" max="-2" attributes="0"/>
                   <Component id="Help" min="-2" max="-2" attributes="0"/>
                   <EmptySpace type="separate" max="-2" attributes="0"/>
-                  <Component id="Save" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
                   <Component id="satReport" min="-2" max="-2" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
-                  <Component id="Exit" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
                   <Component id="satDetailsButton" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
                   <Component id="excelSat" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace pref="71" max="32767" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Component id="allSatsButton" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace pref="15" max="32767" attributes="0"/>
+                  <Component id="Exit" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
                   <Component id="runPassPrediction" min="-2" pref="144" max="-2" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
               </Group>
@@ -206,11 +206,11 @@
                       <Component id="WorldView" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="Compass" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="Help" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="Save" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="Exit" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="satReport" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="satDetailsButton" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="excelSat" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="allSatsButton" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace max="-2" attributes="0"/>
               </Group>
@@ -307,14 +307,6 @@
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ScaleActionPerformed"/>
           </Events>
         </Component>
-        <Component class="javax.swing.JButton" name="Save">
-          <Properties>
-            <Property name="text" type="java.lang.String" value="&#x630;&#x62e;&#x6cc;&#x631;&#x647;"/>
-          </Properties>
-          <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="SaveActionPerformed"/>
-          </Events>
-        </Component>
         <Component class="javax.swing.JButton" name="Exit">
           <Properties>
             <Property name="text" type="java.lang.String" value="&#x62e;&#x631;&#x648;&#x62c;"/>
@@ -343,6 +335,17 @@
           <Properties>
             <Property name="text" type="java.lang.String" value="&#x62a;&#x639;&#x631;&#x6cc;&#x641; &#x62f;&#x633;&#x62a;&#x647; &#x627;&#x6cc;&#x6cc; &#x645;&#x627;&#x647;&#x648;&#x627;&#x631;&#x647;"/>
           </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="excelSatActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="allSatsButton">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x644;&#x6cc;&#x633;&#x62a; &#x645;&#x627;&#x647;&#x648;&#x627;&#x631;&#x647; &#x647;&#x627;"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="allSatsButtonActionPerformed"/>
+          </Events>
         </Component>
       </SubComponents>
     </Container>

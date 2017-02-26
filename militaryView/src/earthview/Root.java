@@ -41,11 +41,11 @@ public class Root extends javax.swing.JFrame {
         Compass = new javax.swing.JToggleButton();
         WorldView = new javax.swing.JToggleButton();
         Scale = new javax.swing.JToggleButton();
-        Save = new javax.swing.JButton();
         Exit = new javax.swing.JButton();
         satReport = new javax.swing.JButton();
         satDetailsButton = new javax.swing.JButton();
         excelSat = new javax.swing.JButton();
+        allSatsButton = new javax.swing.JButton();
         center = new javax.swing.JPanel();
         bottom = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
@@ -160,13 +160,6 @@ public class Root extends javax.swing.JFrame {
             }
         });
 
-        Save.setText("ذخیره");
-        Save.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                SaveActionPerformed(evt);
-            }
-        });
-
         Exit.setText("خروج");
         Exit.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -189,6 +182,18 @@ public class Root extends javax.swing.JFrame {
         });
 
         excelSat.setText("تعریف دسته ایی ماهواره");
+        excelSat.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                excelSatActionPerformed(evt);
+            }
+        });
+
+        allSatsButton.setText("لیست ماهواره ها");
+        allSatsButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                allSatsButtonActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout topLayout = new javax.swing.GroupLayout(top);
         top.setLayout(topLayout);
@@ -214,16 +219,16 @@ public class Root extends javax.swing.JFrame {
                 .addGap(18, 18, 18)
                 .addComponent(Help)
                 .addGap(18, 18, 18)
-                .addComponent(Save)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(satReport)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(Exit)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(satDetailsButton)
-                .addGap(18, 18, 18)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(excelSat)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 71, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(allSatsButton)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 15, Short.MAX_VALUE)
+                .addComponent(Exit)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(runPassPrediction, javax.swing.GroupLayout.PREFERRED_SIZE, 144, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
         );
@@ -242,11 +247,11 @@ public class Root extends javax.swing.JFrame {
                     .addComponent(WorldView)
                     .addComponent(Compass)
                     .addComponent(Help)
-                    .addComponent(Save)
                     .addComponent(Exit)
                     .addComponent(satReport)
                     .addComponent(satDetailsButton)
-                    .addComponent(excelSat))
+                    .addComponent(excelSat)
+                    .addComponent(allSatsButton))
                 .addContainerGap())
         );
 
@@ -535,10 +540,6 @@ public class Root extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_ScaleActionPerformed
 
-    private void SaveActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_SaveActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_SaveActionPerformed
-
     private void ExitActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ExitActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_ExitActionPerformed
@@ -558,6 +559,14 @@ public class Root extends javax.swing.JFrame {
     private void satDetailsButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_satDetailsButtonActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_satDetailsButtonActionPerformed
+
+    private void allSatsButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_allSatsButtonActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_allSatsButtonActionPerformed
+
+    private void excelSatActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_excelSatActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_excelSatActionPerformed
 
     /**
      * @param args the command line arguments
@@ -604,10 +613,10 @@ public class Root extends javax.swing.JFrame {
     private javax.swing.JButton Go;
     private javax.swing.JButton Help;
     private javax.swing.JButton NewFacility;
-    private javax.swing.JButton Save;
     private javax.swing.JMenuItem SaveMenuItem;
     private javax.swing.JToggleButton Scale;
     private javax.swing.JToggleButton WorldView;
+    private javax.swing.JButton allSatsButton;
     private javax.swing.JPanel bottom;
     private javax.swing.JPanel center;
     private javax.swing.JCheckBoxMenuItem compassMenuItem;
