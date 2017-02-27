@@ -93,7 +93,7 @@ public class FacilityPropertyDialog extends javax.swing.JDialog {
         jLabel7.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         jLabel7.setText("فاصله تفکیک مکانی");
 
-        facilityOne.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "بیش از نه متر", "بین چهار و نیم تا نه متر", "بین دو و نیم تا چهارونیم", "بین 1.2 تا 2.5", "بین 0.75 تا 1.2 " }));
+        facilityOne.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "بیش از نه متر", "بین 4.5 تا  9متر", "بین 2.5  تا 4.5 متر", "بین 1.2 تا 2.5 متر", "بین 0.75 تا  1.2  متر", "بین 0.4 تا 0.75 متر", "بین 0.2 تا 0.4 متر", "بین 0.1 تا 0.2 متر", "کمتر از 0.1 متر" }));
 
         jLabel15.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel15.setText("ویژگی ها");
