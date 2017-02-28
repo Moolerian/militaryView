@@ -88,9 +88,6 @@
             </Property>
             <Property name="toolTipText" type="java.lang.String" value="sfgsfgs"/>
           </Properties>
-          <AuxValues>
-            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="12"/>
-          </AuxValues>
         </Component>
       </SubComponents>
     </Container>

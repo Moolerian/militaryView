@@ -131,7 +131,7 @@ public class ResultDialog extends javax.swing.JDialog {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JScrollPane jScrollPane1;
-    protected static javax.swing.JTable resultTable;
+    private javax.swing.JTable resultTable;
     private javax.swing.JButton saveAsExcel;
     // End of variables declaration//GEN-END:variables
 }
