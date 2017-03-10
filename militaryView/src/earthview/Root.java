@@ -102,7 +102,7 @@ public class Root extends javax.swing.JFrame {
         });
 
         runPassPrediction.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        runPassPrediction.setForeground(new java.awt.Color(255, 255, 0));
+        runPassPrediction.setForeground(java.awt.Color.darkGray);
         runPassPrediction.setText("پردازش");
         runPassPrediction.setToolTipText("");
         runPassPrediction.addActionListener(new java.awt.event.ActionListener() {
@@ -200,37 +200,36 @@ public class Root extends javax.swing.JFrame {
         topLayout.setHorizontalGroup(
             topLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(topLayout.createSequentialGroup()
-                .addContainerGap()
                 .addComponent(Go)
-                .addGap(18, 18, 18)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(removeFacilityFromList)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(NewFacility)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(CustomFacility, javax.swing.GroupLayout.PREFERRED_SIZE, 125, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(CustomSatellite)
-                .addGap(18, 18, 18)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(Scale)
-                .addGap(18, 18, 18)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(WorldView)
-                .addGap(18, 18, 18)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(Compass)
-                .addGap(18, 18, 18)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(Help)
-                .addGap(18, 18, 18)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(satReport)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(satDetailsButton)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(excelSat)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(allSatsButton)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 15, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(Exit)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(runPassPrediction, javax.swing.GroupLayout.PREFERRED_SIZE, 144, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap())
+                .addContainerGap(25, Short.MAX_VALUE))
         );
         topLayout.setVerticalGroup(
             topLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -263,28 +262,28 @@ public class Root extends javax.swing.JFrame {
         jLabel1.setText("زمان محلی");
 
         localTime.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
-        localTime.setForeground(new java.awt.Color(255, 255, 0));
+        localTime.setForeground(java.awt.Color.darkGray);
         localTime.setText("00:00:00");
 
         jLabel2.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jLabel2.setText("زمان جهانی");
 
         universalTime.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
-        universalTime.setForeground(new java.awt.Color(255, 255, 0));
+        universalTime.setForeground(java.awt.Color.darkGray);
         universalTime.setText("00:00:00");
 
         jLabel3.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         jLabel3.setText("تاریخ محلی");
 
         localDate.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
-        localDate.setForeground(new java.awt.Color(255, 255, 0));
+        localDate.setForeground(java.awt.Color.darkGray);
         localDate.setText("14/10/2016");
 
         jLabel5.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         jLabel5.setText("تاریخ جهانی");
 
         universalDate.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
-        universalDate.setForeground(new java.awt.Color(255, 255, 0));
+        universalDate.setForeground(java.awt.Color.darkGray);
         universalDate.setText("14/10/2016");
 
         javax.swing.GroupLayout bottomLayout = new javax.swing.GroupLayout(bottom);
@@ -333,7 +332,7 @@ public class Root extends javax.swing.JFrame {
         centerLayout.setHorizontalGroup(
             centerLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addComponent(bottom, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-            .addComponent(jButton1, javax.swing.GroupLayout.DEFAULT_SIZE, 1401, Short.MAX_VALUE)
+            .addComponent(jButton1, javax.swing.GroupLayout.DEFAULT_SIZE, 1297, Short.MAX_VALUE)
         );
         centerLayout.setVerticalGroup(
             centerLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
